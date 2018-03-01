@@ -1,0 +1,8 @@
+node_modules
+
+# Git Stats
+git_stats/
+
+# Yarn offline packages
+yarn-offline/
+package-lock.json
