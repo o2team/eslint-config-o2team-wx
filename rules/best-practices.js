@@ -225,7 +225,7 @@ module.exports = {
     'radix': 'off',
 
     // disallow async functions which have no await expression
-    'require-await': 'off',
+    'require-await': 'error',
 
     // require variable declarations to be at the top of their scope
     'vars-on-top': 'off',

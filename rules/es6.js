@@ -112,10 +112,6 @@ module.exports = {
   },
   parserOptions: {
     ecmaVersion: 8,
-    sourceType: 'module',
-    // ecmaFeatures: {
-    //   objectLiteralDuplicateProperties: false,
-    //   generators: false
-    // }
+    sourceType: 'module'
   }
 }
