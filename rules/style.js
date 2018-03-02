@@ -3,8 +3,14 @@
  */
 module.exports = {
   rules: {
+    // enforce linebreaks after opening and before closing array brackets
+    'array-bracket-newline': 'off',
+
     // enforce spacing inside array brackets
     'array-bracket-spacing': 'off',
+
+    // enforce line breaks after each array element
+    'array-element-newline': 'off',
 
     // enforce spacing inside single-line blocks
     'block-spacing': 'error',
@@ -54,6 +60,9 @@ module.exports = {
     // enforce the consistent use of either function declarations or expressions
     'func-style': 'off',
 
+    // enforce consistent line breaks inside function parentheses
+    'function-paren-newline': 'off',
+
     // disallow specified identifiers
     'id-blacklist': 'off',
 
@@ -62,6 +71,9 @@ module.exports = {
 
     // require identifiers to match a specified regular expression
     'id-match': 'off',
+
+    // enforce the location of arrow function bodies
+    'implicit-arrow-linebreak': 'error',
 
     // enforce consistent indentation
     'indent': ['error', 2, { SwitchCase: 1 }],
@@ -87,8 +99,8 @@ module.exports = {
     // require empty lines around comments
     'lines-around-comment': 'off',
 
-    // require or disallow newlines around directives
-    'lines-around-directive': 'off',
+    // require or disallow an empty line between class members
+    'lines-between-class-members': 'off',
 
     // enforce a maximum depth that blocks can be nested
     'max-depth': 'off',
@@ -111,6 +123,9 @@ module.exports = {
     // enforce a maximum number of statements allowed per line
     'max-statements-per-line': 'off',
 
+    // enforce a particular style for multiline comments
+    'multiline-comment-style': 'off',
+
     // enforce or disallow newlines between operands of ternary expressions
     'multiline-ternary': 'off',
 
@@ -119,12 +134,6 @@ module.exports = {
 
     // require parentheses when invoking a constructor with no arguments
     'new-parens': 'error',
-
-    // require or disallow an empty line after variable declarations
-    'newline-after-var': 'off',
-
-    // require an empty line before return statements
-    'newline-before-return': 'off',
 
     // require a newline after each call in a method chain
     'newline-per-chained-call': ['error', { ignoreChainWithDepth: 4 }],
@@ -209,7 +218,7 @@ module.exports = {
 
     // enforce placing object properties on separate lines
     'object-property-newline': ['error', {
-      allowMultiplePropertiesPerLine: true,
+      allowAllPropertiesOnSameLine: true,
     }],
 
     // enforce variables to be declared either together or separately in functions
@@ -231,6 +240,9 @@ module.exports = {
       'switches': 'never'
     }],
 
+    // require or disallow padding lines between statements
+    'padding-line-between-statements': 'off',
+
     // require quotes around object literal property names
     'quote-props': 'off',
 
@@ -248,6 +260,9 @@ module.exports = {
 
     // enforce spacing before and after semicolons
     'semi-spacing': ['error', { before: false, after: true }],
+
+    // enforce location of semicolons
+    'semi-style': ['error', 'last'],
 
     // require object keys to be sorted
     'sort-keys': 'off',
@@ -275,17 +290,6 @@ module.exports = {
 
     // requires or disallows a whitespace (space or tab) beginning a comment
     'spaced-comment': ['error', 'always', {
-      line: {
-        exceptions: ['-', '+'],
-        markers: ['=', '!'], // space here to support sprockets directives
-      },
-      block: {
-        exceptions: ['-', '+'],
-        markers: ['=', '!'], // space here to support sprockets directives
-        balanced: false,
-      }
-    }],
-    'spaced-comment': ['error', 'always', {
       'line': {
         'markers': ['*package', '!', '/', ',']
       },
@@ -295,6 +299,9 @@ module.exports = {
         'exceptions': ['*']
       }
     }],
+
+    // enforce spacing around colons of switch statements
+    'switch-colon-spacing': 'error',
 
     // require or disallow spacing between template tags and their literals
     'template-tag-spacing': 'off',
