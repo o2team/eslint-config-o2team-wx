@@ -16,7 +16,8 @@ module.exports = {
     'block-spacing': 'error',
 
     // require brace style
-    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
+    // 'brace-style': ['error', '1tbs', { allowSingleLine: true }],
+    'brace-style': 'off',
 
     // require camelcase
     'camelcase': ['error', { properties: 'never' }],
@@ -151,7 +152,7 @@ module.exports = {
     'no-inline-comments': 'off',
 
     // disallow if statements as the only statement in else blocks
-    'no-lonely-if': 'error',
+    'no-lonely-if': 'off',
 
     // Disallow mixes of different operators
     'no-mixed-operators': ['error', {
@@ -178,7 +179,7 @@ module.exports = {
     'no-negated-condition': 'off',
 
     // disallow nested ternary expressions
-    'no-nested-ternary': 'error',
+    'no-nested-ternary': 'warn',
 
     // disallow Object constructors
     'no-new-object': 'error',
@@ -256,7 +257,8 @@ module.exports = {
     'require-jsdoc': 'off',
 
     // require or disallow semicolons instead of ASI
-    'semi': ['error', 'never'],
+    // 'semi': ['error', 'never'],
+    'semi': 'off',
 
     // enforce spacing before and after semicolons
     'semi-spacing': ['error', { before: false, after: true }],

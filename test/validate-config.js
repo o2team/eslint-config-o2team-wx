@@ -14,7 +14,6 @@ fs.readdirSync(path.join(__dirname, '../rules')).forEach(name => {
 // the repo file to test lint
 const repoFiles = [
   'index.js',
-  'legacy.js',
   'test/*.js'
 ]
 

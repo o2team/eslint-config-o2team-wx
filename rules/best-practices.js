@@ -25,7 +25,7 @@ module.exports = {
     'curly': ['error', 'multi-line'],
 
     // require default case in switch statements
-    'default-case': 'off',
+    'default-case': 'error',
 
     // enforce newline before and after dot
     'dot-location': ['error', 'property'],
@@ -86,7 +86,7 @@ module.exports = {
     'no-fallthrough': 'error',
 
     // disallow floating decimals
-    'no-floating-decimal': 'error',
+    'no-floating-decimal': 'off',
 
     // disallow assignment to native objects or read-only global variables
     'no-global-assign': 'error',
@@ -125,7 +125,7 @@ module.exports = {
     'no-multi-str': 'error',
 
     // disallow new for side effects
-    'no-new': 'error',
+    'no-new': 'off',
 
     // disallow function constructor
     'no-new-func': 'error',
@@ -234,6 +234,6 @@ module.exports = {
     'wrap-iife': ['error', 'any', { functionPrototypeMethods: true }],
 
     // require or disallow Yoda conditions
-    'yoda': ['error', 'never']
+    'yoda': 'off'
   }
 }

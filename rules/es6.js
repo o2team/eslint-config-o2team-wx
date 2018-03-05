@@ -87,7 +87,7 @@ module.exports = {
     'prefer-rest-params': 'error',
 
     // suggest using the spread operator instead of .apply()
-    'prefer-spread': 'warn',
+    'prefer-spread': 'off',
 
     // suggest using template literals instead of string concatenation
     'prefer-template': 'error',
