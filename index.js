@@ -23,7 +23,7 @@ module.exports = {
     mocha: false,
     jasmine: false
   },
-  global: {
+  globals: {
     App: false,
     Behavior: false,
     Component: false,
