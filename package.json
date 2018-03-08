@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-o2team-wx",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ESLint Shareable Config for WXAPP based on the O2Team Javascript Style Guide",
   "main": "index.js",
   "scripts": {

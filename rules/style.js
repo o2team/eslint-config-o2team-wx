@@ -16,8 +16,7 @@ module.exports = {
     'block-spacing': 'error',
 
     // require brace style
-    // 'brace-style': ['error', '1tbs', { allowSingleLine: true }],
-    'brace-style': 'off',
+    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
 
     // require camelcase
     'camelcase': ['error', { properties: 'never' }],
@@ -257,8 +256,7 @@ module.exports = {
     'require-jsdoc': 'off',
 
     // require or disallow semicolons instead of ASI
-    // 'semi': ['error', 'never'],
-    'semi': 'off',
+    'semi': ['error', 'never'],
 
     // enforce spacing before and after semicolons
     'semi-spacing': ['error', { before: false, after: true }],

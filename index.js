@@ -22,5 +22,14 @@ module.exports = {
     amd: false,
     mocha: false,
     jasmine: false
+  },
+  global: {
+    App: false,
+    Behavior: false,
+    Component: false,
+    Page: false,
+    getApp: false,
+    getCurrentPages: false,
+    wx: false
   }
 }

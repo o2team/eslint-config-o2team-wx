@@ -1,5 +1,5 @@
 
-# eslint-config-o2team-wx [![Build Status](https://travis-ci.org/o2team/eslint-config-o2team.svg?branch=master)](https://travis-ci.org/o2team/eslint-config-o2team)
+# eslint-config-o2team-wx [![Build Status](https://travis-ci.org/o2team/eslint-config-o2team-wx.svg?branch=master)](https://travis-ci.org/o2team/eslint-config-o2team-wx)
 
 > ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs.html) for WXAPP based on the O2Team Javascript Style Guide
 
