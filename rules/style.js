@@ -218,7 +218,7 @@ module.exports = {
 
     // enforce placing object properties on separate lines
     'object-property-newline': ['error', {
-      allowAllPropertiesOnSameLine: true,
+      allowMultiplePropertiesPerLine: true,
     }],
 
     // enforce variables to be declared either together or separately in functions
