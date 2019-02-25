@@ -9,11 +9,8 @@ module.exports = {
     './rules/es6'
   ].map(require.resolve),
   parserOptions: {
-    ecmaVersion: 8,
-    sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    }
+    ecmaVersion: 9,
+    sourceType: 'module'
   },
   env: {
     browser: true,

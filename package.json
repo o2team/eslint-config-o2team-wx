@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-o2team-wx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint Shareable Config for WXAPP based on the O2Team Javascript Style Guide",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   "homepage": "https://github.com/o2team/eslint-config-o2team-wx",
   "devDependencies": {
     "ava": "^0.25.0",
-    "eslint": "^4.18.1"
+    "eslint": "^5.14.1"
   }
 }
